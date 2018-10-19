@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Velkommen til brukerfeilen</title>
+    <style>
+        img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        button {
+            color: red;
+            background-color:mediumorchid;
+            text-align: center;
+            margin: auto;
+            width: 95%;
+            font-size: 50px;
+            display: flex;
+            justify-content: center;
+            height: 100px;
+        }
+
+        body {
+            background-color: #00FFF1;
+            font-family: Impact, Times, "Franklin Gothic Bold", "Arial Black", sans-serif;
+            font-size: 200%;
+            color: blue;
+        }
+
+        p {
+            text-indent: hanging;
+        }
+
+        h1 {
+            color: red;
+            font-family: "Times New Roman", Times;
+            text-align: center;
+            text-decoration: underline;
+            text-transform: uppercase;
+        }
+
+        img {
+            background: #FF8800;
+            border: 20px #DF489D;
+        }
+
+        #mainText {
+            cursor: auto;
+            position: relative;
+            margin-bottom: 50px;
+            padding: 25px;
+            width: 800px;
+            background-color: black;
+            margin: 50px auto;
+            text-align: left;
+            font-family: Times;
+            box-shadow: 15px 15px 15px #3AA468;
+            border-radius: 22px;
+            border: 20px double;
+        }
+
+        .blink {
+            -webkit-animation: blink .75s linear infinite;
+            -moz-animation: blink .75s linear infinite;
+            -ms-animation: blink .75s linear infinite;
+            -o-animation: blink .75s linear infinite;
+            animation: blink .75s linear infinite;
+            color: #FF8800
+        }
+
+        @-webkit-keyframes blink {
+            0% {
+                opacity: 1;
+            }
+
+            50% {
+                opacity: 1;
+            }
+
+            50.01% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 0;
+            }
+        }
+
+        @-moz-keyframes blink {
+            0% {
+                opacity: 1;
+            }
+
+            50% {
+                opacity: 1;
+            }
+
+            50.01% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 0;
+            }
+        }
+
+        @-ms-keyframes blink {
+            0% {
+                opacity: 1;
+            }
+
+            50% {
+                opacity: 1;
+            }
+
+            50.01% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 0;
+            }
+        }
+
+        @-o-keyframes blink {
+            0% {
+                opacity: 1;
+            }
+
+            50% {
+                opacity: 1;
+            }
+
+            50.01% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 0;
+            }
+        }
+
+        @keyframes blink {
+            0% {
+                opacity: 1;
+            }
+
+            50% {
+                opacity: 1;
+            }
+
+            50.01% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div id="mainText">
+        <!-- This is the main text of the website -->
+        <h1>Brukerfeil!</h1>
+        <p>OBS! Noen mener visst at feilen du har meldt skyldes en <span class="blink">brukerfeil.</span></p>
+        <p><img src="http://i.imgur.com/aoQ72yy.gif" /></p>
+        <p>Årsaken til en brukerfeil befinner seg mellom stolen og tastaturet.</p>
+        <button onclick="feil()">Trykk her for å fikse problemet</button>
+    </div>
+    <br />
+    <br />
+    <br />
+    <script>
+        function feil() {
+            alert("Ingen knapp i verden kan fikse brukerfeil");
+            alert("Seriøst, trodde du virkelig feilen din ville bli fikset?");
+            alert("En knapp liksom... For å fikse feilen din?!");
+            alert("Foreslår at du siker unnskyld til han som sendte deg denne siden");
+            alert("Og når det er gjort, så slår du av pcen, pakker den pent ned i esken sin...");
+            alert("... Og sender den tilbake til produsenten");
+        }
+    </script>
+</body>
+
+</html>
