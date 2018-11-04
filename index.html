@@ -190,6 +190,12 @@
     <br />
     <script>
         function feil() {
+            ga('send', {
+                hitType: 'event',
+                eventCategory: 'Btn',
+                eventAction: 'Click',
+                eventLabel: 'Trykk her for å fikse problemet'
+            });
             alert("Ingen knapp i verden kan fikse brukerfeil");
             alert("Seriøst, trodde du virkelig feilen din ville bli fikset?");
             alert("En knapp liksom... For å fikse feilen din?!");
